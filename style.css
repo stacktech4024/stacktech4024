@@ -553,6 +553,24 @@ nav{
 
 .proj-link:hover{color:var(--blue)}
 
+.proj-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:14px;
+  align-items:center;
+  margin-top:auto;
+}
+
+.status-tag{
+  color:var(--dim);
+  cursor:default;
+  font-style:italic;
+  display:inline-block;
+  line-height:1.5;
+}
+
+.status-tag:hover{color:var(--dim)}
+
 /* EXPERIENCE */
 .exp-list{display:flex;flex-direction:column;gap:0}
 
