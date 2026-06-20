@@ -1,12 +1,12 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:185fa5,100:4f8ef7&height=200&section=header&text=Darren%20Billy&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=%2F%2F%20AI_Engineer()%20%7C%20Application_Developer()%20%7C%20Automation_Engineer()&descSize=14&descAlignY=58&animation=fadeIn&fontFamily=monospace" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:185fa5,100:4f8ef7&height=200&section=header&text=Darren%20Billy&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=%2F%2F%20AI_App_Developer()%20%7C%20LLM_Workflow_Builder()%20%7C%20Full_Stack_Developer()&descSize=14&descAlignY=58&animation=fadeIn&fontFamily=monospace" />
 
 </div>
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/portfolio-stacktech4024.github.io-4f8ef7?style=flat-square&logo=googlechrome&logoColor=white)](https://stacktech4024.github.io/github.io/)
+[![Portfolio](https://img.shields.io/badge/portfolio-stacktech4024.github.io-4f8ef7?style=flat-square&logo=googlechrome&logoColor=white)](https://stacktech4024.github.io/stacktech4024/)
 [![LinkedIn](https://img.shields.io/badge/linkedin-db--cpga-4f8ef7?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/db-cpga)
 [![Email](https://img.shields.io/badge/email-darrenbilly%40trentu.ca-4f8ef7?style=flat-square&logo=gmail&logoColor=white)](mailto:darrenbilly@trentu.ca)
 [![GitHub followers](https://img.shields.io/github/followers/stacktech4024?label=followers&style=flat-square&color=4f8ef7)](https://github.com/stacktech4024)
@@ -18,75 +18,70 @@
 
 ```bash
 $ whoami
-> Darren Billy — AI Engineer | Application Developer | Automation Engineer
-> Ontario, Canada | Open to internships & opportunities
+> Darren Billy — AI Application Developer | LLM Workflow Builder | Full-Stack Developer
+> Ontario, Canada | Open to internships, junior AI roles, and applied software projects
 
-$ cat about.txt
+$ cat focus.txt
 > BSc Artificial Intelligence @ Trent University (2025–2028)
 > Advanced Diploma in Computer Programming & Analysis @ Durham College (2023–2025)
-> Founder @ Top Recruit Tapes — tech-driven media brand serving 50+ clients
-> Building LLM-powered systems, automation pipelines & full-stack apps
+> Founder @ Top Recruit Tapes — tech-driven media brand serving 50+ athlete clients
+> Building LLM-powered applications, tactical sports tools, and automation workflows
 > Email: darrenbilly@trentu.ca
-> Hobbies: Photography & Videography
 ```
 
 ---
 
 ## `// 01 — about_me`
 
-- 🎓 **BSc Artificial Intelligence** @ **Trent University** *(2025–2028)*
-- 🏫 **Advanced Diploma — Computer Programming & Analysis** @ **Durham College** *(2023–2025)*
-- 🤖 Aspiring **AI Engineer** & **Automation Engineer** — integrating Gemini & OpenAI APIs, building automation pipelines
-- 🚀 Founder of **[Top Recruit Tapes](https://www.toprecruittapes.com/)** — tech-driven media brand serving 50+ clients
-- 📱 Built **Whisper** — full-stack mobile app with Angular, Ionic, Firebase & Leaflet.js maps
-- 🧠 Currently exploring **ML, LLM-powered systems & n8n workflow automation**
-- 📸 Hobbyist **photographer & videographer** on the side
-- ⚡ I combine creativity with code to ship things that actually matter
+I'm an AI student and application developer based in Ontario, Canada. My work focuses on building practical software around **LLM workflows**, **automation**, **sports technology**, and **full-stack product ideas**.
+
+Recently, I have been building two major systems:
+
+- ⚽ **Canada Soccer Game Model / Tactical Board** — an interactive soccer tactical-board and presentation system for visualizing formations, phase-based player movement, coaching notes, and game-model principles.
+- 🧠 **Industry Signal** — an AI-powered industry-intelligence workflow that ingests industrial automation news, summarizes articles, supports review workflows, and generates draft content.
+
+I also run **[Top Recruit Tapes](https://www.toprecruittapes.com/)**, a sports-media brand serving 50+ athlete clients. That background helps me combine software, design, video, automation, and real-world client delivery.
 
 ---
 
-## `// 02 — tech_stack`
+## `// 02 — core_stack`
 
 <div align="center">
 
 ### Languages
 ![Python](https://img.shields.io/badge/Python-0a0a0f?style=for-the-badge&logo=python&logoColor=4f8ef7)
-![JavaScript](https://img.shields.io/badge/JavaScript-0a0a0f?style=for-the-badge&logo=javascript&logoColor=4f8ef7)
 ![TypeScript](https://img.shields.io/badge/TypeScript-0a0a0f?style=for-the-badge&logo=typescript&logoColor=4f8ef7)
+![JavaScript](https://img.shields.io/badge/JavaScript-0a0a0f?style=for-the-badge&logo=javascript&logoColor=4f8ef7)
 ![Java](https://img.shields.io/badge/Java-0a0a0f?style=for-the-badge&logo=openjdk&logoColor=4f8ef7)
 ![C#](https://img.shields.io/badge/C%23-0a0a0f?style=for-the-badge&logo=c-sharp&logoColor=4f8ef7)
-![HTML5](https://img.shields.io/badge/HTML5-0a0a0f?style=for-the-badge&logo=html5&logoColor=4f8ef7)
-![CSS3](https://img.shields.io/badge/CSS3-0a0a0f?style=for-the-badge&logo=css3&logoColor=4f8ef7)
-![COBOL](https://img.shields.io/badge/COBOL-0a0a0f?style=for-the-badge&logoColor=4f8ef7)
 
-### Frameworks & Libraries
+### Application Development
+![React](https://img.shields.io/badge/React-0a0a0f?style=for-the-badge&logo=react&logoColor=4f8ef7)
+![Vite](https://img.shields.io/badge/Vite-0a0a0f?style=for-the-badge&logo=vite&logoColor=4f8ef7)
+![FastAPI](https://img.shields.io/badge/FastAPI-0a0a0f?style=for-the-badge&logo=fastapi&logoColor=4f8ef7)
 ![Angular](https://img.shields.io/badge/Angular-0a0a0f?style=for-the-badge&logo=angular&logoColor=4f8ef7)
 ![Ionic](https://img.shields.io/badge/Ionic-0a0a0f?style=for-the-badge&logo=ionic&logoColor=4f8ef7)
-![React](https://img.shields.io/badge/React-0a0a0f?style=for-the-badge&logo=react&logoColor=4f8ef7)
 ![Next.js](https://img.shields.io/badge/Next.js-0a0a0f?style=for-the-badge&logo=nextdotjs&logoColor=4f8ef7)
 ![Node.js](https://img.shields.io/badge/Node.js-0a0a0f?style=for-the-badge&logo=nodedotjs&logoColor=4f8ef7)
-![Express](https://img.shields.io/badge/Express-0a0a0f?style=for-the-badge&logo=express&logoColor=4f8ef7)
-![Tailwind](https://img.shields.io/badge/Tailwind-0a0a0f?style=for-the-badge&logo=tailwindcss&logoColor=4f8ef7)
-![Selenium](https://img.shields.io/badge/Selenium-0a0a0f?style=for-the-badge&logo=selenium&logoColor=4f8ef7)
-![Unity](https://img.shields.io/badge/Unity-0a0a0f?style=for-the-badge&logo=unity&logoColor=4f8ef7)
 
-### AI & Data
-![Gemini API](https://img.shields.io/badge/Gemini_API-0a0a0f?style=for-the-badge&logo=google&logoColor=4f8ef7)
+### AI, Data & Automation
 ![OpenAI](https://img.shields.io/badge/OpenAI_API-0a0a0f?style=for-the-badge&logo=openai&logoColor=4f8ef7)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0a0a0f?style=for-the-badge&logo=scikit-learn&logoColor=4f8ef7)
-![Pandas](https://img.shields.io/badge/Pandas-0a0a0f?style=for-the-badge&logo=pandas&logoColor=4f8ef7)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-0a0a0f?style=for-the-badge&logo=tensorflow&logoColor=4f8ef7)
+![Gemini API](https://img.shields.io/badge/Gemini_API-0a0a0f?style=for-the-badge&logo=google&logoColor=4f8ef7)
+![Ollama](https://img.shields.io/badge/Ollama-0a0a0f?style=for-the-badge&logoColor=4f8ef7)
 ![n8n](https://img.shields.io/badge/n8n-0a0a0f?style=for-the-badge&logo=n8n&logoColor=4f8ef7)
+![Selenium](https://img.shields.io/badge/Selenium-0a0a0f?style=for-the-badge&logo=selenium&logoColor=4f8ef7)
+![Pandas](https://img.shields.io/badge/Pandas-0a0a0f?style=for-the-badge&logo=pandas&logoColor=4f8ef7)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0a0a0f?style=for-the-badge&logo=scikit-learn&logoColor=4f8ef7)
 
-### Databases & Cloud
+### Databases, Cloud & Tools
+![SQLite](https://img.shields.io/badge/SQLite-0a0a0f?style=for-the-badge&logo=sqlite&logoColor=4f8ef7)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-0a0a0f?style=for-the-badge&logoColor=4f8ef7)
 ![Firebase](https://img.shields.io/badge/Firebase-0a0a0f?style=for-the-badge&logo=firebase&logoColor=4f8ef7)
 ![MongoDB](https://img.shields.io/badge/MongoDB-0a0a0f?style=for-the-badge&logo=mongodb&logoColor=4f8ef7)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0a0a0f?style=for-the-badge&logo=postgresql&logoColor=4f8ef7)
 ![AWS](https://img.shields.io/badge/AWS-0a0a0f?style=for-the-badge&logo=amazonaws&logoColor=4f8ef7)
 ![Docker](https://img.shields.io/badge/Docker-0a0a0f?style=for-the-badge&logo=docker&logoColor=4f8ef7)
 ![Git](https://img.shields.io/badge/Git-0a0a0f?style=for-the-badge&logo=git&logoColor=4f8ef7)
-![Postman](https://img.shields.io/badge/Postman-0a0a0f?style=for-the-badge&logo=postman&logoColor=4f8ef7)
-![Figma](https://img.shields.io/badge/Figma-0a0a0f?style=for-the-badge&logo=figma&logoColor=4f8ef7)
 
 </div>
 
@@ -96,15 +91,16 @@ $ cat about.txt
 
 | `id` | Project | Description | Stack |
 |------|---------|-------------|-------|
-| `01` | [📱 Whisper App](https://github.com/stacktech4024) | Full-stack mobile app — Firebase auth, real-time data & Leaflet.js maps | Angular · Ionic · Firebase |
-| `02` | [🏈 Top Recruit Tapes](https://www.toprecruittapes.com/) | Sports highlight platform helping 50+ athletes get discovered by recruiters | JavaScript · UI/UX |
-| `03` | [🤖 Gemini AI Tutor](https://github.com/stacktech4024) | Desktop AI tutoring system with Gemini API & direct PDF document processing | Python · Gemini API |
-| `04` | [⚽ Brief-Scout](https://github.com/stacktech4024) | AI soccer scouting tool — match summaries & player insights | Next.js · Tailwind · AI APIs |
-| `05` | [🧠 Mindful Bloom](https://github.com/stacktech4024) | Hackathon AI wellness app — mood tracking, journaling & AI insights | React · Tailwind · Snowflake |
-| `06` | [🎮 Unity Blackjack](https://github.com/LuckyNumber77/OOP-3-Final-Project-Unity) | Real-time multiplayer card game with betting & JSON state tracking | C# · Unity |
-| `07` | [🐾 Animal API](https://github.com/LuckyNumber77/assignment4-spa) | RESTful CRUD API with search & scalable routing | Node.js · Express · MongoDB |
-| `08` | [🤖 RSVP Automation](https://github.com/stacktech4024) | Browser automation replacing manual attendance tracking with analytics | Python · Selenium |
-| `09` | [📊 Screenshot Extractor](https://github.com/LuckyNumber77/Screen-Shot-Extractor) | OCR tool extracting video metadata from screenshots to Excel | Python · OCR |
+| `01` | [⚽ Canada Soccer Game Model / Tactical Board](https://github.com/stacktech4024/game-model-tactical-board) | Interactive soccer tactical-board system for formations, player movement, coaching notes, and presentation-ready game-model diagrams | React · TypeScript · Vite · PixiJS · GSAP |
+| `02` | Industry Signal | AI-powered industry-intelligence workflow for news intake, article summaries, content review, LinkedIn drafts, and infographic planning | Python · FastAPI · Ollama · SQLite · SQLAlchemy · RSS |
+| `03` | [🏈 Top Recruit Tapes](https://www.toprecruittapes.com/) | Sports-media platform and production workflow serving 50+ athlete clients | JavaScript · Automation · UI/UX · Media Tech |
+| `04` | [📱 Whisper App](https://github.com/stacktech4024/whisper-app) | Full-stack mobile app with authentication, real-time data, and location-based map features | Angular · Ionic · Firebase · Leaflet.js |
+| `05` | Gemini AI Tutor | Desktop AI tutoring prototype with Gemini API and PDF document processing | Python · Gemini API · PDF Processing |
+| `06` | [⚽ Brief-Scout](https://github.com/stacktech4024/brief-scout) | AI-powered football scouting concept for player summaries and match insights | Next.js · TypeScript · Tailwind · AI APIs |
+| `07` | [🧪 AI Text Analyzer API](https://github.com/stacktech4024/ai-text-analyzer-api) | Backend API project for structured AI-assisted text analysis workflows | Python · API Design · AI |
+| `08` | RSVP Automation Engine | Browser automation replacing manual team attendance tracking with structured data workflows | Python · Selenium · Automation |
+| `09` | [🧠 Mindful Bloom](https://github.com/stacktech4024/mindful-bloom) | Hackathon wellness app with journaling, mood tracking, and AI-assisted insights | React · Tailwind · Snowflake |
+| `10` | [📊 Screenshot Extractor](https://github.com/LuckyNumber77/Screen-Shot-Extractor) | OCR utility extracting video metadata from screenshots and exporting structured results | Python · OCR · Excel |
 
 ---
 
@@ -127,7 +123,7 @@ $ cat about.txt
 
 ## `// 05 — certifications`
 
-```
+```txt
 [✓] Excel Skills for Business Specialization
 [✓] AWS Academy Graduate — Cloud Foundations
 ```
@@ -138,7 +134,7 @@ $ cat about.txt
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐_portfolio-visit_site-4f8ef7?style=for-the-badge)](https://stacktech4024.github.io/github.io/)
+[![Portfolio](https://img.shields.io/badge/🌐_portfolio-visit_site-4f8ef7?style=for-the-badge)](https://stacktech4024.github.io/stacktech4024/)
 [![LinkedIn](https://img.shields.io/badge/💼_linkedin-db--cpga-4f8ef7?style=for-the-badge)](https://linkedin.com/in/db-cpga)
 [![Email](https://img.shields.io/badge/✉_email-darrenbilly@trentu.ca-4f8ef7?style=for-the-badge)](mailto:darrenbilly@trentu.ca)
 
