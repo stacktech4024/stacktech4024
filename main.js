@@ -80,11 +80,11 @@
 
   // ── TYPEWRITER ──
   const phrases = [
-    'AI_Engineer()',
-    'Application_Developer()',
-    'Automation_Engineer()',
-    'Full_Stack_Dev()',
-    'ML_Enthusiast()',
+    'AI_App_Developer()',
+    'LLM_Workflow_Builder()',
+    'Full_Stack_Developer()',
+    'Automation_Builder()',
+    'Sports_Tech_Developer()',
   ];
   const el = document.getElementById('typewriter');
   if (el) {
@@ -134,12 +134,24 @@
   if (form && submitBtn) {
     form.addEventListener('submit', (e) => {
       e.preventDefault();
-      submitBtn.textContent = 'message_sent ✓';
+
+      const name = form.querySelector('input[type="text"]')?.value.trim() || 'Portfolio visitor';
+      const email = form.querySelector('input[type="email"]')?.value.trim() || '';
+      const message = form.querySelector('textarea')?.value.trim() || '';
+      const subject = encodeURIComponent(`Portfolio inquiry from ${name}`);
+      const body = encodeURIComponent(`Name: ${name}
+Email: ${email}
+
+Message:
+${message}`);
+
+      window.location.href = `mailto:darrenbilly@trentu.ca?subject=${subject}&body=${body}`;
+
+      submitBtn.textContent = 'email_draft_opened ✓';
       submitBtn.style.background = 'linear-gradient(135deg,#1d9e75,#4f8ef7)';
       setTimeout(() => {
         submitBtn.textContent = 'send_message()';
         submitBtn.style.background = '';
-        form.reset();
       }, 3000);
     });
   }
