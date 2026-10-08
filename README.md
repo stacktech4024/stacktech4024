@@ -1,31 +1,255 @@
-# Darren Billy
 
-### Artificial Intelligence Student | Software Developer | Python & AI Applications
+<div align="center">
 
-📍 Ontario, Canada  
-🎓 BSc Artificial Intelligence — Trent University (2025–2028)  
-🎓 Advanced Diploma, Computer Programming & Analysis — Durham College (2023–2025)  
-💼 Seeking Summer 2027 AI, Software Development & Automation Internships
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0f,50:185fa5,100:4f8ef7&height=200&section=header&text=Darren%20Billy&fontSize=58&fontColor=ffffff&fontAlignY=38&desc=AI%20Student%20%7C%20Software%20Developer%20%7C%20Automation%20Builder&descSize=16&descAlignY=58&animation=fadeIn&fontFamily=monospace" alt="Darren Billy GitHub Profile Banner"/>
+
+### Artificial Intelligence Student · Software Developer · AI Applications
+
+**BSc Artificial Intelligence — Trent University | Advanced Diploma — Durham College**
+
+**Open to Summer 2027 AI, Software Development & Automation Internships**
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-4f8ef7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://stacktech4024.github.io/stacktech4024/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/db-cpga)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-4f8ef7?style=for-the-badge&logo=gmail&logoColor=white)](mailto:darrenbilly@trentu.ca)
+
+![GitHub followers](https://img.shields.io/github/followers/stacktech4024?label=Followers&style=flat-square&color=4f8ef7)
+![Profile Views](https://komarev.com/ghpvc/?username=stacktech4024&label=Profile%20Views&color=4f8ef7&style=flat-square)
+
+</div>
 
 ---
 
-### About Me
+## `01 // About Me`
 
-I'm an Artificial Intelligence student at Trent University with a background in computer programming and hands-on experience developing applications, integrating AI APIs, and automating workflows.
+```bash
+$ whoami
+> Darren Billy
+> Artificial Intelligence Student | Software Developer
+> Ontario, Canada
 
-My projects include a Gemini-powered calculus tutoring application, Python and Selenium browser automation, mobile applications using Angular and Firebase, and interactive software tools built with React and TypeScript.
+$ education
+> Trent University — BSc Artificial Intelligence (2025–2028)
+> Durham College — Advanced Diploma, Computer Programming
+  & Analysis (2023–2025)
 
-I also founded Top Recruit Tapes, a sports-media business where I've applied technology and automation to real-world production workflows.
+$ current_focus
+> Building practical AI applications
+> Integrating LLM APIs into software projects
+> Developing full-stack applications
+> Automating real-world workflows with Python and Selenium
 
-I'm particularly interested in opportunities involving:
+$ opportunities
+> Seeking Summer 2027 internships
+> AI Development | Software Engineering | Automation
+```
 
-- **AI Application Development:** LLM integration, API-based applications and applied AI.
-- **Software Engineering:** Python, TypeScript, JavaScript, C# and full-stack development.
-- **Workflow Automation:** Selenium, Python scripting and n8n.
-- **Data & Backend Systems:** SQL, APIs and database-driven applications.
+I'm an **Artificial Intelligence student at Trent University** with an Advanced Diploma in Computer Programming and Analysis from Durham College.
 
-**Currently seeking Summer 2027 internship opportunities with Canadian startups and software development teams.**
+I enjoy building software that solves practical problems, especially projects involving **AI applications, automation, API integration, and full-stack development**.
 
-📧 darrenbilly@trentu.ca  
-🔗 [LinkedIn](https://linkedin.com/in/db-cpga)  
-💻 [GitHub](https://github.com/stacktech4024)
+My work includes a Gemini-powered calculus tutoring application, browser automation workflows, interactive sports technology, and mobile applications using Angular and Firebase.
+
+Outside my studies, I founded [Top Recruit Tapes](https://www.toprecruittapes.com/), a sports-media business serving more than 50 athlete clients. Running this business has given me experience solving technical problems, working with clients, and applying automation to real-world workflows.
+
+I'm currently looking for an opportunity to contribute to a Canadian technology team, learn from experienced developers, and continue building my software engineering skills.
+
+---
+
+## `02 // Featured Projects`
+
+### ⚽ Canada Soccer Game Model / Tactical Board
+
+**Interactive Software Development · Sports Technology**
+
+[![Repository](https://img.shields.io/badge/GitHub-View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/stacktech4024/game-model-tactical-board)
+
+An interactive tactical-board project designed to help visualize soccer formations, player movements, coaching notes, and game-model concepts.
+
+**Technologies:** React · TypeScript · Vite · PixiJS · GSAP
+
+**Project focus:**
+- Interactive visualizations
+- User-interface development
+- Sports technology
+- Translating coaching concepts into software tools
+
+---
+
+### 🧠 Gemini AI Calculus Tutor
+
+**AI Application Development · LLM Integration**
+
+A desktop tutoring application that integrates the Gemini API with PDF document processing.
+
+**Technologies:** Python · Gemini API · PDF Processing
+
+**Implemented features documented in my project work:**
+- Curriculum-based context injection using structured topic files
+- AI-assisted question generation
+- Answer evaluation and hint generation
+- Prompt refinement for improved tutoring responses
+
+*Repository or demonstration link to be added when available.*
+
+---
+
+### 📱 Whisper Mobile Application
+
+**Mobile Development · Authentication · Mapping**
+
+[![Repository](https://img.shields.io/badge/GitHub-View_Repository-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/stacktech4024/whisper-app)
+
+A mobile application project integrating authentication, application routing, and location-based mapping features.
+
+**Technologies:** Angular · Ionic · Firebase · Leaflet.js
+
+**My documented contributions:**
+- Firebase Authentication integration
+- Route guards for protected pages
+- Interactive mapping with Leaflet.js
+- Lazy-loaded application routing
+
+---
+
+### 🤖 RSVP Workflow Automation Engine
+
+**Python Automation · Browser Automation**
+
+A browser automation project created to reduce repetitive administrative work related to soccer team attendance.
+
+**Technologies:** Python · Selenium
+
+**Implemented features:**
+- Automated website login and navigation
+- Extracted attendance and RSVP information
+- Aggregated structured attendance records
+- Generated monthly attendance analytics
+
+This project demonstrates my interest in using programming to solve everyday operational problems.
+
+*Repository link to be added when available.*
+
+---
+
+### 📰 Industry Signal
+
+**Applied AI · Workflow Automation · Information Processing**
+
+An industry-intelligence project focused on collecting and processing industrial automation news.
+
+**Technologies listed in project documentation:** Python · FastAPI · Ollama · SQLite · SQLAlchemy · RSS
+
+**Project scope:**
+- News intake and article organization
+- AI-assisted article summaries
+- Content review workflows
+- Draft generation for industry communications
+
+*Project implementation and public demonstration details are being documented.*
+
+---
+
+## `03 // Additional Projects`
+
+| Project | Description | Technologies |
+|---|---|---|
+| [Brief-Scout](https://github.com/stacktech4024/brief-scout) | Football scouting software concept | Next.js, TypeScript |
+| [AI Text Analyzer API](https://github.com/stacktech4024/ai-text-analyzer-api) | API-based text analysis project | Python, APIs |
+| [Mindful Bloom](https://github.com/stacktech4024/mindful-bloom) | Hackathon wellness application | React, Tailwind |
+| [Screenshot Extractor](https://github.com/stacktech4024/Screen-Shot-Extractor) | Screenshot-to-structured-data utility | Python, OCR, Excel |
+| [Top Recruit Tapes](https://www.toprecruittapes.com/) | Sports-media business and digital production workflows | Media technology, automation |
+
+---
+
+## `04 // Technical Skills`
+
+<div align="center">
+
+### Programming Languages
+
+![Python](https://img.shields.io/badge/Python-0a0a0f?style=for-the-badge&logo=python&logoColor=4f8ef7)
+![TypeScript](https://img.shields.io/badge/TypeScript-0a0a0f?style=for-the-badge&logo=typescript&logoColor=4f8ef7)
+![JavaScript](https://img.shields.io/badge/JavaScript-0a0a0f?style=for-the-badge&logo=javascript&logoColor=4f8ef7)
+![C#](https://img.shields.io/badge/C%23-0a0a0f?style=for-the-badge&logo=csharp&logoColor=4f8ef7)
+![SQL](https://img.shields.io/badge/SQL-0a0a0f?style=for-the-badge&logo=postgresql&logoColor=4f8ef7)
+
+### AI & Automation
+
+![Gemini](https://img.shields.io/badge/Gemini_API-0a0a0f?style=for-the-badge&logo=googlegemini&logoColor=4f8ef7)
+![OpenAI](https://img.shields.io/badge/OpenAI_API-0a0a0f?style=for-the-badge&logo=openai&logoColor=4f8ef7)
+![Selenium](https://img.shields.io/badge/Selenium-0a0a0f?style=for-the-badge&logo=selenium&logoColor=4f8ef7)
+![n8n](https://img.shields.io/badge/n8n-0a0a0f?style=for-the-badge&logo=n8n&logoColor=4f8ef7)
+![Pandas](https://img.shields.io/badge/Pandas-0a0a0f?style=for-the-badge&logo=pandas&logoColor=4f8ef7)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0a0a0f?style=for-the-badge&logo=scikitlearn&logoColor=4f8ef7)
+
+### Application Development
+
+![React](https://img.shields.io/badge/React-0a0a0f?style=for-the-badge&logo=react&logoColor=4f8ef7)
+![Angular](https://img.shields.io/badge/Angular-0a0a0f?style=for-the-badge&logo=angular&logoColor=4f8ef7)
+![Ionic](https://img.shields.io/badge/Ionic-0a0a0f?style=for-the-badge&logo=ionic&logoColor=4f8ef7)
+![Node.js](https://img.shields.io/badge/Node.js-0a0a0f?style=for-the-badge&logo=nodedotjs&logoColor=4f8ef7)
+![Next.js](https://img.shields.io/badge/Next.js-0a0a0f?style=for-the-badge&logo=nextdotjs&logoColor=4f8ef7)
+
+### Databases & Development Tools
+
+![Firebase](https://img.shields.io/badge/Firebase-0a0a0f?style=for-the-badge&logo=firebase&logoColor=4f8ef7)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0a0a0f?style=for-the-badge&logo=postgresql&logoColor=4f8ef7)
+![Git](https://img.shields.io/badge/Git-0a0a0f?style=for-the-badge&logo=git&logoColor=4f8ef7)
+![GitHub](https://img.shields.io/badge/GitHub-0a0a0f?style=for-the-badge&logo=github&logoColor=4f8ef7)
+![AWS](https://img.shields.io/badge/AWS_Foundations-0a0a0f?style=for-the-badge&logo=amazonaws&logoColor=4f8ef7)
+
+</div>
+
+---
+
+## `05 // GitHub Activity`
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=stacktech4024&show_icons=true&theme=tokyonight&hide_border=true&title_color=4f8ef7&icon_color=4f8ef7&text_color=e8eaf6&bg_color=0a0a0f" alt="GitHub statistics"/>
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stacktech4024&layout=compact&theme=tokyonight&hide_border=true&title_color=4f8ef7&text_color=e8eaf6&bg_color=0a0a0f" alt="Most used repository languages"/>
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=stacktech4024&theme=tokyonight&hide_border=true&ring=4f8ef7&fire=4f8ef7&currStreakLabel=4f8ef7&background=0a0a0f)](https://github.com/stacktech4024)
+
+</div>
+
+---
+
+## `06 // Education & Certifications`
+
+### 🎓 Education
+
+**Trent University**  
+Bachelor of Science — Artificial Intelligence  
+2025–2028 (In Progress)
+
+**Durham College**  
+Advanced Diploma — Computer Programming and Analysis  
+2023–2025
+
+### 📜 Certifications
+
+- Excel Skills for Business Specialization
+- AWS Academy Graduate — Cloud Foundations
+
+---
+
+## `07 // Let's Connect`
+
+<div align="center">
+
+### Interested in collaborating or discussing internship opportunities?
+
+I'm actively exploring **Summer 2027 internships** with Canadian technology companies, particularly teams working in applied AI, software engineering, and automation.
+
+[![Email](https://img.shields.io/badge/Email-darrenbilly%40trentu.ca-4f8ef7?style=for-the-badge&logo=gmail&logoColor=white)](mailto:darrenbilly@trentu.ca)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/db-cpga)
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-View_Portfolio-4f8ef7?style=for-the-badge&logo=googlechrome&logoColor=white)](https://stacktech4024.github.io/stacktech4024/)
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4f8ef7,100:0a0a0f&height=120&section=footer&animation=fadeIn" alt="Footer wave"/>
+
+</div>
