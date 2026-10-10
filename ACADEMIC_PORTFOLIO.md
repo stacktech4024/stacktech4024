@@ -1,72 +1,83 @@
 # Academic Portfolio | Artificial Intelligence at Trent University
 
-> **Learning portfolio (in progress).** This page documents selected exercises and technical skills developed during my BSc in Artificial Intelligence at Trent University. It is separate from my [featured software projects](README.md#03--featured-projects).
+[← Back to GitHub profile](README.md)
 
-I use this portfolio to explain **what I was trying to solve, what I implemented, what I observed, and what I learned**. Where university policies allow, I plan to include original, independently documented examples, charts, and source code. This page does **not** contain graded assignment submissions.
+**A hybrid portfolio of academic learning and software development.** I use this page to connect coursework with practical programming skills, explain observed outcomes, and highlight projects that may be relevant to applied AI, data science and software engineering internships.
 
-## Current learning areas
+> **Publication approach:** These are evidence-based **learning case studies**, not full submissions. Diagrams shown here are recreated from recorded outputs. Original coursework files, graded solutions, and screenshot assets are withheld from public posting pending review of instructor/course sharing rules.
 
-| Focus | Selected learning work | Tools & concepts | Portfolio status |
-| --- | --- | --- | --- |
-| Machine learning: Iris dataset | Data exploration, labeled scatter plots, train/test split, K-nearest neighbours classification | Python, Pandas, Matplotlib, scikit-learn | Learning summary; public demonstration being prepared |
-| Machine learning: Wine dataset | Feature statistics and comparisons, visualizations, model predictions and confusion-matrix interpretation | Python, scikit-learn, Matplotlib | Learning summary; public demonstration being prepared |
-| Statistical learning | Descriptive statistics, sampling concepts and analysis with R / R Markdown | R, RStudio, R Markdown | Learning summary; public examples to follow |
-| Database-backed web development | Address-book application with styled web forms, validation, search, database inserts and prepared queries | PHP, MySQL, PDO, SQL, HTML, CSS | Learning summary; independent public demonstration to follow |
-| Computer systems | Binary, decimal and hexadecimal representations; foundational computer organization and logic | Number systems, digital logic | Learning summary; public examples to follow |
+## Highlighted case studies
 
-## Projects to document next
+### 🧠 Applied AI & Machine Learning
 
-### Python machine learning: classification and data exploration
+**[Wine Dataset — EDA, k-NN & Feature Scaling](portfolio/wine-machine-learning.md)**
 
-**Questions I explored:** What can a dataset tell us before modeling? How does a training/test split work? How do we interpret predictions and errors?
+![Recorded Wine k-NN accuracy before and after StandardScaler](portfolio/assets/wine-scaling-results.svg)
 
-**Skills practiced:** Inspecting dataset shapes and feature names; comparing variables with scatter plots; fitting a KNN classifier; interpreting classification outcomes and a confusion matrix.
+- **Exploratory assignment:** 178 samples, 13 features and 3 wine classes; class-coloured scatter plots of alcohol vs. colour intensity and flavanoids vs. proline; 142/36 train/test split.
+- **Separate model-evaluation lab:** 133 training and 45 testing examples; `k = 5`; **77.78%** test accuracy without scaling and **93.33%** after `StandardScaler` on this split.
+- **Evaluation:** A three-class confusion matrix showed 42 correct and 3 incorrect predictions after scaling.
+- **Skills:** Python, NumPy/Pandas, Matplotlib, scikit-learn, dataset exploration, classification, training/testing and model evaluation.
 
-**Next documentation steps:** Include reproducible notebooks or scripts, graphs, sample output, an explanation of the evaluation method, and limitations.
+The two activities used different train/test splits. The recorded improvement of **15.56 percentage points** is an observation from this specific lab configuration, not a general claim about every dataset.
 
-### Statistical analysis in R
+### 🌐 PHP, MySQL & Responsive CSS
 
-**Questions I explored:** How do samples differ from populations, and how can data be summarized and interpreted?
+**[Totem Pool — Social Feed Application](portfolio/totem-pool.md)**
 
-**Skills practiced:** R code, descriptive statistics and R Markdown reporting.
+A web application demonstrating account registration, session-based login/logout, a post feed, likes, deletion controls, PDO database access, and **responsive HTML/CSS**. Desktop, mobile, login and registration screenshots have been collected from the running application and are undergoing final publication review.
 
-**Next documentation steps:** Provide a reproducible mini-analysis with a small public dataset and an explanation of the results.
+**Skills:** PHP, MySQL, PDO, prepared SQL statements, HTML5, CSS3, form validation, session management and mobile-friendly UI design.
 
-### PHP and MySQL address-book application
+### 🔎 C# Data Structures & Algorithms
 
-**Questions I explored:** How can form input be validated and stored safely? How can users search database records?
+**[Graph Algorithms — DFS, BFS & Dijkstra](portfolio/csharp-graph-algorithms.md)**
 
-**Skills practiced:** PHP form handling, email validation, PDO prepared statements, SQL INSERT/SELECT, searchable output, and HTML/CSS for the interface.
+![C# weighted graph with shortest route A to C to D](portfolio/assets/csharp-weighted-graph.svg)
 
-**Next documentation steps:** Build or document an independent demonstration with setup instructions, screenshots of the styled HTML/CSS interface, and an explanation of database design.
+A C#/.NET console application implementing directed weighted graphs, recursion-based DFS, queue-based BFS and Dijkstra's shortest-path algorithm.
 
-### Computer systems foundations
+The actual recorded program output showed **DFS: A → B → D → C**, **BFS: A → B → C → D**, and **shortest A-to-D route: A → C → D (weight 7)**.
 
-**Questions I explored:** How are values represented in different bases, and how do those representations connect to computing?
+**Skills:** C#, .NET, nested dictionaries, queues, hash sets, recursion, algorithmic reasoning and route reconstruction.
 
-**Skills practiced:** Binary/decimal/hexadecimal conversions and digital-logic concepts.
+### 🔌 Digital Logic
 
-**Next documentation steps:** Publish original explanations and practice examples, not copied assessment solutions.
+**[Boolean Functions, Karnaugh Maps & Room-Light Control](portfolio/digital-logic.md)**
 
-## How I document each public project
+![Digital logic truth table to Logisim workflow](portfolio/assets/digital-logic-workflow.svg)
 
-Every full project repository should contain:
+Simulated gate-level logic in Logisim, explored Boolean truth tables and Karnaugh-map simplification, and documented a room-light controller in both AND/OR/NOT and two-level NAND forms.
 
-1. **Problem and objective** — what the project is meant to demonstrate.
-2. **Tools and technologies** — languages, libraries, versions, and dataset sources.
-3. **Approach** — how the work was structured and why.
-4. **Evidence** — screenshots, graphs, test output, or sample interactions.
-5. **Results and limitations** — verified findings, including actual model metrics where relevant.
-6. **What I learned** — technical takeaways and next improvements.
+**Skills:** Boolean algebra, circuit simulation, Karnaugh maps and digital logic.
 
-## Related software projects
+### 📊 R & Statistical Learning
 
-My larger engineering projects are showcased on my [GitHub profile](README.md), including:
+**[R Programming and Statistical Learning — Foundations](portfolio/r-statistical-learning.md)**
 
-- [AI Text Analyzer API](https://github.com/stacktech4024/ai-text-analyzer-api) — Python, FastAPI, LangChain, LLM-backed text analysis.
-- [Screenshot Extractor](https://github.com/stacktech4024/Screen-Shot-Extractor) — OCR and structured data extraction.
-- [Whisper Mobile App](https://github.com/stacktech4024/whisper-app) — mobile development, authentication, and mapping.
+Practiced R vectors, indexing, arithmetic, descriptive statistics, built-in datasets, and R Markdown reporting, including `mtcars` fuel economy and a pressure-versus-temperature plot.
+
+**Skills:** R, RStudio, R Markdown, descriptive statistics and data exploration.
 
 ---
 
-*Coursework is summarized here as evidence of learning. I only publish source code or assignment materials when course rules and collaboration requirements permit it.*
+## Learning areas and additional work
+
+| Area | Additional work in progress | Next public evidence |
+| --- | --- | --- |
+| Iris classification | DataFrame construction, visualizations, k-nearest neighbours experiments | An independent, reproducible Python example |
+| PHP/MySQL address book | Searchable records, form validation, PDO queries | A sanitized standalone demonstration |
+| Computer systems fundamentals | Number systems and digital logic exercises | Original explanations and interactive examples |
+| Statistical learning | R exercises, sampling and statistical reasoning | Extended reproducible analyses |
+
+## How I document projects
+
+Each case study separates the **objective**, **tools**, **what I implemented**, **observed output**, **what I learned**, and **limitations or improvements**. Where applicable, I add documented screenshots of real program runs or original explanatory diagrams—without presenting a reconstruction as an authentic screenshot.
+
+## Related engineering projects
+
+My larger software projects are on my [main GitHub profile](README.md), including [AI Text Analyzer API](https://github.com/stacktech4024/ai-text-analyzer-api), [Screenshot Extractor](https://github.com/stacktech4024/Screen-Shot-Extractor), and [Whisper Mobile Application](https://github.com/stacktech4024/whisper-app).
+
+---
+
+*This academic index can evolve with new coursework. Public source releases and original assessed images will be reviewed against course requirements first.*
