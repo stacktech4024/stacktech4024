@@ -56,7 +56,50 @@ I'm currently looking for an opportunity to contribute to a Canadian technology 
 
 ---
 
-## `02 // Featured Projects`
+## `02 // Currently Studying at Trent`
+
+**BSc in Artificial Intelligence · Applied learning portfolio**
+
+I combine my software development projects with practical coursework in **machine learning, statistics, databases, and computer systems**. The table below summarizes the technical concepts I am actively practicing; it does not imply that graded assignment solutions are publicly posted.
+
+| Learning area | Work I've been doing | Tools / concepts |
+| --- | --- | --- |
+| 🧠 Machine Learning | Iris and Wine datasets, feature exploration, KNN classification, train/test evaluation, confusion matrices | Python · Pandas · scikit-learn · Matplotlib |
+| 📊 Statistical Learning | Descriptive statistics, sampling concepts, data analysis and reproducible reports | R · RStudio · R Markdown |
+| 🗄️ Database Development | Searchable address book, web forms, server-side validation, parameterized SQL queries | PHP · MySQL · PDO |
+| 💻 Computer Systems | Binary, hexadecimal, number systems and digital logic | Computing fundamentals |
+
+📚 **[Explore my Academic Portfolio & Learning Log](ACADEMIC_PORTFOLIO.md)** — what I built or practiced, what I learned, and the documentation I am preparing.
+
+> I publish coursework code only when university and instructor policies allow it. Independent demonstrations and verified results will be added as they become available.
+
+---
+
+## `03 // Featured Projects`
+
+### 🤖 AI Text Analyzer API
+
+**Applied AI · Backend Development · LLM Integration**
+
+[View repository](https://github.com/stacktech4024/ai-text-analyzer-api)
+
+A Python API that uses an LLM to analyze text, summarize key information, evaluate sentiment, and generate captions or tags.
+
+**Technologies:** Python · FastAPI · LangChain · OpenAI API · pytest
+
+---
+
+### 🖼️ Screenshot Extractor
+
+**Automation · OCR · Structured Data**
+
+[View repository](https://github.com/stacktech4024/Screen-Shot-Extractor)
+
+A Python utility that extracts text and video metadata from screenshots, organizes results into Excel, and detects duplicate entries.
+
+**Technologies:** Python · Tesseract OCR · Excel
+
+---
 
 ### ⚽ Canada Soccer Game Model / Tactical Board
 
@@ -150,19 +193,17 @@ An industry-intelligence project focused on collecting and processing industrial
 
 ---
 
-## `03 // Additional Projects`
+## `04 // Additional Projects`
 
 | Project | Description | Technologies |
 |---|---|---|
 | [Brief-Scout](https://github.com/stacktech4024/brief-scout) | Football scouting software concept | Next.js, TypeScript |
-| [AI Text Analyzer API](https://github.com/stacktech4024/ai-text-analyzer-api) | API-based text analysis project | Python, APIs |
 | [Mindful Bloom](https://github.com/stacktech4024/mindful-bloom) | Hackathon wellness application | React, Tailwind |
-| [Screenshot Extractor](https://github.com/stacktech4024/Screen-Shot-Extractor) | Screenshot-to-structured-data utility | Python, OCR, Excel |
 | [Top Recruit Tapes](https://www.toprecruittapes.com/) | Sports-media business and digital production workflows | Media technology, automation |
 
 ---
 
-## `04 // Technical Skills`
+## `05 // Technical Skills`
 
 <div align="center">
 
@@ -203,7 +244,7 @@ An industry-intelligence project focused on collecting and processing industrial
 
 ---
 
-## `05 // GitHub Activity`
+## `06 // GitHub Activity`
 
 <div align="center">
 
@@ -217,7 +258,7 @@ An industry-intelligence project focused on collecting and processing industrial
 
 ---
 
-## `06 // Education & Certifications`
+## `07 // Education & Certifications`
 
 ### 🎓 Education
 
@@ -236,7 +277,7 @@ Advanced Diploma — Computer Programming and Analysis
 
 ---
 
-## `07 // Let's Connect`
+## `08 // Let's Connect`
 
 <div align="center">
 
