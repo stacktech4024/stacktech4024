@@ -900,6 +900,7 @@ nav{
   nav{padding:1rem 1.5rem}
   .nav-links{display:none}
   .hero-inner{grid-template-columns:1fr;padding:3rem 1.5rem;gap:3rem}
+  .hero-actions{flex-wrap:wrap;row-gap:12px}
   .hero-right{order:-1}
   .container{padding:0 1.5rem}
   .about-grid,.contact-grid,.skills-grid,.edu-grid{grid-template-columns:1fr}
