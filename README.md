@@ -66,7 +66,7 @@ I combine my software development projects with practical coursework in **machin
 | --- | --- | --- |
 | 🧠 Machine Learning | Iris and Wine datasets, feature exploration, KNN classification, train/test evaluation, confusion matrices | Python · Pandas · scikit-learn · Matplotlib |
 | 📊 Statistical Learning | Descriptive statistics, sampling concepts, data analysis and reproducible reports | R · RStudio · R Markdown |
-| 🗄️ Database Development | Searchable address book, web forms, server-side validation, parameterized SQL queries | PHP · MySQL · PDO |
+| 🗄️ Database Development | Searchable address book, styled web forms, server-side validation, parameterized SQL queries | PHP · MySQL · PDO · HTML · CSS |
 | 💻 Computer Systems | Binary, hexadecimal, number systems and digital logic | Computing fundamentals |
 
 📚 **[Explore my Academic Portfolio & Learning Log](ACADEMIC_PORTFOLIO.md)** — what I built or practiced, what I learned, and the documentation I am preparing.
@@ -109,7 +109,7 @@ A Python utility that extracts text and video metadata from screenshots, organiz
 
 An interactive tactical-board project designed to help visualize soccer formations, player movements, coaching notes, and game-model concepts.
 
-**Technologies:** React · TypeScript · Vite · PixiJS · GSAP
+**Technologies:** React · TypeScript · Vite · CSS · PixiJS · GSAP
 
 **Project focus:**
 - Interactive visualizations
@@ -145,7 +145,7 @@ A desktop tutoring application that integrates the Gemini API with PDF document 
 
 A mobile application project integrating authentication, application routing, and location-based mapping features.
 
-**Technologies:** Angular · Ionic · Firebase · Leaflet.js
+**Technologies:** Angular · Ionic · Firebase · Leaflet.js · HTML · SCSS
 
 **My documented contributions:**
 - Firebase Authentication integration
@@ -198,7 +198,7 @@ An industry-intelligence project focused on collecting and processing industrial
 | Project | Description | Technologies |
 |---|---|---|
 | [Brief-Scout](https://github.com/stacktech4024/brief-scout) | Football scouting software concept | Next.js, TypeScript |
-| [Mindful Bloom](https://github.com/stacktech4024/mindful-bloom) | Hackathon wellness application | React, Tailwind |
+| [Mindful Bloom](https://github.com/stacktech4024/mindful-bloom) | Hackathon wellness application | React, Tailwind CSS |
 | [Top Recruit Tapes](https://www.toprecruittapes.com/) | Sports-media business and digital production workflows | Media technology, automation |
 
 ---
@@ -224,8 +224,11 @@ An industry-intelligence project focused on collecting and processing industrial
 ![Pandas](https://img.shields.io/badge/Pandas-0a0a0f?style=for-the-badge&logo=pandas&logoColor=4f8ef7)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0a0a0f?style=for-the-badge&logo=scikitlearn&logoColor=4f8ef7)
 
-### Application Development
+### Web & Application Development
 
+![HTML5](https://img.shields.io/badge/HTML5-0a0a0f?style=for-the-badge&logo=html5&logoColor=4f8ef7)
+![CSS3](https://img.shields.io/badge/CSS3-0a0a0f?style=for-the-badge&logo=css3&logoColor=4f8ef7)
+![Sass](https://img.shields.io/badge/SCSS-0a0a0f?style=for-the-badge&logo=sass&logoColor=4f8ef7)
 ![React](https://img.shields.io/badge/React-0a0a0f?style=for-the-badge&logo=react&logoColor=4f8ef7)
 ![Angular](https://img.shields.io/badge/Angular-0a0a0f?style=for-the-badge&logo=angular&logoColor=4f8ef7)
 ![Ionic](https://img.shields.io/badge/Ionic-0a0a0f?style=for-the-badge&logo=ionic&logoColor=4f8ef7)
