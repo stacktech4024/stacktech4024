@@ -69,7 +69,23 @@ I combine my software development projects with practical coursework in **machin
 | 🗄️ Database Development | Searchable address book, styled web forms, server-side validation, parameterized SQL queries | PHP · MySQL · PDO · HTML · CSS |
 | 💻 Computer Systems | Binary, hexadecimal, number systems and digital logic | Computing fundamentals |
 
-📚 **[Explore my Academic Portfolio & Learning Log](ACADEMIC_PORTFOLIO.md)** — what I built or practiced, what I learned, and the documentation I am preparing.
+📚 **[Explore my Academic Portfolio & Learning Log](ACADEMIC_PORTFOLIO.md)** — verified course projects, recorded results, and what I learned.
+
+### Selected Academic Case Studies
+
+| Focus | Project | Evidence & skills |
+| --- | --- | --- |
+| 🧠 Applied Machine Learning | **[Wine Classification & Feature Scaling](portfolio/wine-machine-learning.md)** | Python, scikit-learn, visual exploration, k-NN; **77.78% → 93.33%** accuracy on one test split |
+| 🌐 Full-Stack Web Development | **[Totem Pool — PHP/MySQL Social Feed](portfolio/totem-pool.md)** | Registration, login, sessions, posting, likes, PDO, **responsive CSS** |
+| 🔎 Data Structures & Algorithms | **[C# Graph Algorithms](portfolio/csharp-graph-algorithms.md)** | DFS, BFS and Dijkstra; observed shortest route **A → C → D (weight 7)** |
+| 🔌 Computer Systems | **[Digital Logic Circuit Design](portfolio/digital-logic.md)** | Truth tables, Karnaugh maps, Logisim, room-light controller |
+| 📊 Statistical Learning | **[R Programming Foundations](portfolio/r-statistical-learning.md)** | Vectors, descriptive statistics, built-in datasets, R Markdown |
+
+| Machine learning results | Graph algorithms |
+| :---: | :---: |
+| [![Wine k-NN accuracy before and after scaling](portfolio/assets/wine-scaling-results.svg)](portfolio/wine-machine-learning.md) | [![Weighted graph with shortest route highlighted](portfolio/assets/csharp-weighted-graph.svg)](portfolio/csharp-graph-algorithms.md) |
+
+*These are documented learning case studies. Diagrams are recreated from recorded work; full graded assignment submissions and source screenshots are not published without course-sharing review.*
 
 > I publish coursework code only when university and instructor policies allow it. Independent demonstrations and verified results will be added as they become available.
 
