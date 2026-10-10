@@ -11,7 +11,7 @@ I use this portfolio to explain **what I was trying to solve, what I implemented
 | Machine learning: Iris dataset | Data exploration, labeled scatter plots, train/test split, K-nearest neighbours classification | Python, Pandas, Matplotlib, scikit-learn | Learning summary; public demonstration being prepared |
 | Machine learning: Wine dataset | Feature statistics and comparisons, visualizations, model predictions and confusion-matrix interpretation | Python, scikit-learn, Matplotlib | Learning summary; public demonstration being prepared |
 | Statistical learning | Descriptive statistics, sampling concepts and analysis with R / R Markdown | R, RStudio, R Markdown | Learning summary; public examples to follow |
-| Database-backed web development | Address-book application with validated forms, search, database inserts and prepared queries | PHP, MySQL, PDO, SQL | Learning summary; independent public demonstration to follow |
+| Database-backed web development | Address-book application with styled web forms, validation, search, database inserts and prepared queries | PHP, MySQL, PDO, SQL, HTML, CSS | Learning summary; independent public demonstration to follow |
 | Computer systems | Binary, decimal and hexadecimal representations; foundational computer organization and logic | Number systems, digital logic | Learning summary; public examples to follow |
 
 ## Projects to document next
@@ -36,9 +36,9 @@ I use this portfolio to explain **what I was trying to solve, what I implemented
 
 **Questions I explored:** How can form input be validated and stored safely? How can users search database records?
 
-**Skills practiced:** PHP form handling, email validation, PDO prepared statements, SQL INSERT/SELECT, and searchable output.
+**Skills practiced:** PHP form handling, email validation, PDO prepared statements, SQL INSERT/SELECT, searchable output, and HTML/CSS for the interface.
 
-**Next documentation steps:** Build or document an independent demonstration with setup instructions, screenshots, and an explanation of database design.
+**Next documentation steps:** Build or document an independent demonstration with setup instructions, screenshots of the styled HTML/CSS interface, and an explanation of database design.
 
 ### Computer systems foundations
 
