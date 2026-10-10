@@ -44,7 +44,7 @@
     bits.forEach(button => {
       const index = Number(button.dataset.byteBit);
       const on = Boolean(byteValue & (1 << index));
-      button.textContent = on ? '1' : '0';
+      button.firstChild.nodeValue = on ? '1' : '0'; // preserve the small element showing its place value
       button.setAttribute('aria-pressed', String(on));
       button.setAttribute('aria-label', 'Bit ' + index + ', weight ' + (1 << index) + ', ' + (on ? 'on' : 'off'));
     });
