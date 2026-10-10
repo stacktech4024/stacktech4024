@@ -230,6 +230,8 @@ An industry-intelligence project focused on collecting and processing industrial
 ![JavaScript](https://img.shields.io/badge/JavaScript-0a0a0f?style=for-the-badge&logo=javascript&logoColor=4f8ef7)
 ![C#](https://img.shields.io/badge/C%23-0a0a0f?style=for-the-badge&logo=csharp&logoColor=4f8ef7)
 ![SQL](https://img.shields.io/badge/SQL-0a0a0f?style=for-the-badge&logo=postgresql&logoColor=4f8ef7)
+![PHP](https://img.shields.io/badge/PHP-0a0a0f?style=for-the-badge&logo=php&logoColor=4f8ef7)
+![R](https://img.shields.io/badge/R-0a0a0f?style=for-the-badge&logo=r&logoColor=4f8ef7)
 
 ### AI & Automation
 
@@ -249,12 +251,14 @@ An industry-intelligence project focused on collecting and processing industrial
 ![Angular](https://img.shields.io/badge/Angular-0a0a0f?style=for-the-badge&logo=angular&logoColor=4f8ef7)
 ![Ionic](https://img.shields.io/badge/Ionic-0a0a0f?style=for-the-badge&logo=ionic&logoColor=4f8ef7)
 ![Node.js](https://img.shields.io/badge/Node.js-0a0a0f?style=for-the-badge&logo=nodedotjs&logoColor=4f8ef7)
+![.NET](https://img.shields.io/badge/.NET-0a0a0f?style=for-the-badge&logo=dotnet&logoColor=4f8ef7)
 ![Next.js](https://img.shields.io/badge/Next.js-0a0a0f?style=for-the-badge&logo=nextdotjs&logoColor=4f8ef7)
 
 ### Databases & Development Tools
 
 ![Firebase](https://img.shields.io/badge/Firebase-0a0a0f?style=for-the-badge&logo=firebase&logoColor=4f8ef7)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0a0a0f?style=for-the-badge&logo=postgresql&logoColor=4f8ef7)
+![MySQL](https://img.shields.io/badge/MySQL-0a0a0f?style=for-the-badge&logo=mysql&logoColor=4f8ef7)
 ![Git](https://img.shields.io/badge/Git-0a0a0f?style=for-the-badge&logo=git&logoColor=4f8ef7)
 ![GitHub](https://img.shields.io/badge/GitHub-0a0a0f?style=for-the-badge&logo=github&logoColor=4f8ef7)
 ![AWS](https://img.shields.io/badge/AWS_Foundations-0a0a0f?style=for-the-badge&logo=amazonaws&logoColor=4f8ef7)
