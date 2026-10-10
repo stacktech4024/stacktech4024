@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="390" viewBox="0 0 940 390" role="img" aria-label="Wine dataset K nearest neighbors test accuracy. 77.78 percent without scaling versus 93.33 percent with StandardScaler for one 45 sample test split.">
+<rect width="940" height="390" rx="20" fill="#0a0f1d"/>
+<text x="40" y="52" font-family="Arial,sans-serif" font-size="30" font-weight="bold" fill="#ffffff">Wine dataset · k-NN model evaluation</text>
+<text x="40" y="82" font-family="Arial,sans-serif" font-size="17" fill="#9caec8">45 test samples · k = 5 · single stratified train/test split</text>
+<g font-family="Arial,sans-serif"><text x="40" y="139" font-size="20" fill="#d7e0ed">Without scaling</text><rect x="270" y="111" width="520" height="43" rx="9" fill="#1e2a3b"/><rect x="270" y="111" width="404.5" height="43" rx="9" fill="#6781ac"/><text x="812" y="142" font-size="26" font-weight="bold" fill="#ffffff">77.78%</text>
+<text x="40" y="209" font-size="20" fill="#d7e0ed">With StandardScaler</text><rect x="270" y="181" width="520" height="43" rx="9" fill="#1e2a3b"/><rect x="270" y="181" width="485.3" height="43" rx="9" fill="#46dcb6"/><text x="812" y="212" font-size="26" font-weight="bold" fill="#ffffff">93.33%</text></g>
+<line x1="40" y1="258" x2="900" y2="258" stroke="#344358"/>
+<text x="40" y="305" font-family="Arial,sans-serif" font-weight="bold" font-size="29" fill="#46dcb6">+15.56 percentage points</text>
+<text x="40" y="337" font-family="Arial,sans-serif" font-size="19" fill="#c2d0df">Correct predictions: 35/45 → 42/45</text>
+<text x="40" y="364" font-family="Arial,sans-serif" font-size="15" fill="#8a9db5">Recreated from recorded notebook outputs. Results are specific to this test split.</text></svg>
