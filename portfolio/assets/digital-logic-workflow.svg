@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="310" viewBox="0 0 940 310" role="img" aria-label="Digital logic workflow: truth table to Karnaugh map to simplified Boolean expression to Logisim gate circuit, room-light control project.">
+<rect width="940" height="310" rx="20" fill="#0a0f1d"/><text x="42" y="58" font-family="Arial,sans-serif" font-weight="bold" font-size="29" fill="#ffffff">Digital logic · room-light controller</text><text x="42" y="88" font-family="Arial,sans-serif" font-size="17" fill="#9fb0c7">Concept-to-circuit workflow demonstrated in Lab 1</text>
+<g font-family="Arial,sans-serif" font-size="20" text-anchor="middle" fill="#edf7fa">
+<rect x="32" y="151" width="184" height="82" rx="13" fill="#1c3450" stroke="#4d7bb1"/><text x="124" y="187">Truth table</text><text x="124" y="211" font-size="15" fill="#b2c7db">Input / output</text>
+<rect x="270" y="151" width="184" height="82" rx="13" fill="#1c3450" stroke="#4d7bb1"/><text x="362" y="187">Karnaugh map</text><text x="362" y="211" font-size="15" fill="#b2c7db">Simplify logic</text>
+<rect x="508" y="151" width="184" height="82" rx="13" fill="#17413d" stroke="#46dcb6"/><text x="600" y="182">Boolean</text><text x="600" y="209">expression</text>
+<rect x="746" y="151" width="160" height="82" rx="13" fill="#17413d" stroke="#46dcb6"/><text x="826" y="184">Logisim</text><text x="826" y="211" font-size="15" fill="#afeddc">Gate circuit</text>
+<text x="243" y="200" font-size="31" fill="#46dcb6">→</text><text x="481" y="200" font-size="31" fill="#46dcb6">→</text><text x="720" y="200" font-size="31" fill="#46dcb6">→</text>
+</g>
+<text x="42" y="273" font-family="Arial,sans-serif" font-size="15" fill="#9fb0c7">Schematic overview only; not a screenshot of a circuit simulator.</text></svg>
