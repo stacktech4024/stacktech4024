@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="portfolio/arcade.css" />
 </head>
 <body>
 
@@ -20,6 +21,7 @@
       <li><a href="#skills">skills</a></li>
       <li><a href="#projects">projects</a></li>
       <li><a href="#academic">coursework</a></li>
+      <li><a href="#arcade">arcade</a></li>
       <li><a href="#contact">contact</a></li>
     </ul>
     <a href="mailto:darrenbilly@trentu.ca" class="nav-cta">&gt; hire_me</a>
@@ -46,6 +48,7 @@
         <div class="hero-actions">
           <a href="#projects" class="btn-primary">view_work()</a>
           <a href="#academic" class="btn-ghost">coursework()</a>
+          <a href="#arcade" class="btn-ghost">enter_arcade() ↗</a>
           <a href="#contact" class="btn-ghost">contact.me →</a>
         </div>
         <div class="hero-links">
@@ -87,6 +90,130 @@
         </div>
       </div>
 
+    </div>
+  </section>
+
+  <!-- INTERACTIVE DEVELOPER ARCADE : CSS 3D world + real local simulations -->
+  <section id="arcade" class="section arcade-section" aria-labelledby="arcade-title">
+    <div class="container">
+      <div class="section-head">
+        <span class="mono section-tag">&lt;developer_arcade /&gt; // interactive_project_world</span>
+        <h2 id="arcade-title" class="section-title">Explore My Developer World</h2>
+        <p class="arcade-intro">A small playable coding space, inspired by game worlds. Choose a station on the 3D-style map, flip binary bits, compare graph routes, or explore the workflow behind my AI text analyzer. These are working browser interactions, not just decoration.</p>
+      </div>
+
+      <div class="arcade-frame">
+        <div class="arcade-topbar mono">
+          <span class="arcade-signal">SYSTEM ONLINE // STUDENT DEV WORLD</span>
+          <span id="arcade-progress" class="arcade-progress" aria-live="polite">1/3 stations explored</span>
+        </div>
+        <div class="arcade-main">
+          <div class="arcade-world" aria-label="Choose a station in the developer world">
+            <div class="arcade-world-platform" aria-hidden="true"></div>
+            <button type="button" class="arcade-world-node arcade-node-bits" data-arcade-world="bits" aria-pressed="true" aria-label="Open Bit Lab">
+              <span class="arcade-node-shape" aria-hidden="true">01</span>
+              <span class="arcade-node-label">BIT_LAB</span>
+            </button>
+            <button type="button" class="arcade-world-node arcade-node-graph" data-arcade-world="graph" aria-pressed="false" aria-label="Open Graph Quest">
+              <span class="arcade-node-shape" aria-hidden="true">02</span>
+              <span class="arcade-node-label">GRAPH_QUEST</span>
+            </button>
+            <button type="button" class="arcade-world-node arcade-node-ai" data-arcade-world="ai" aria-pressed="false" aria-label="Open AI Studio">
+              <span class="arcade-node-shape" aria-hidden="true">03</span>
+              <span class="arcade-node-label">AI_STUDIO</span>
+            </button>
+          </div>
+
+          <div class="arcade-console">
+            <div class="arcade-console-title">
+              <h3>&gt; mission_control()</h3>
+              <span>// CHOOSE A STATION</span>
+            </div>
+            <div class="arcade-tabs" role="tablist" aria-label="Interactive coding stations">
+              <button type="button" class="arcade-tab" role="tab" id="arcade-tab-bits" data-arcade-tab="bits" aria-selected="true" aria-controls="arcade-panel-bits">01 // BITS</button>
+              <button type="button" class="arcade-tab" role="tab" id="arcade-tab-graph" data-arcade-tab="graph" aria-selected="false" aria-controls="arcade-panel-graph" tabindex="-1">02 // GRAPH</button>
+              <button type="button" class="arcade-tab" role="tab" id="arcade-tab-ai" data-arcade-tab="ai" aria-selected="false" aria-controls="arcade-panel-ai" tabindex="-1">03 // AI</button>
+            </div>
+
+            <div class="arcade-panel" id="arcade-panel-bits" data-arcade-panel="bits" role="tabpanel" aria-labelledby="arcade-tab-bits">
+              <h4>Byte Lab // 8-bit Explorer</h4>
+              <p class="arcade-panel-desc">Tap the switches to build an 8-bit number. Watch the binary, decimal, and hexadecimal values update instantly. Each switch has a place value.</p>
+              <div class="arcade-bit-grid" role="group" aria-label="Eight binary switches from 128 to 1">
+                <button class="arcade-bit-button" type="button" data-byte-bit="7" aria-pressed="false" aria-label="Bit 7, weight 128, off">0<small>128</small></button>
+                <button class="arcade-bit-button" type="button" data-byte-bit="6" aria-pressed="false" aria-label="Bit 6, weight 64, off">0<small>64</small></button>
+                <button class="arcade-bit-button" type="button" data-byte-bit="5" aria-pressed="false" aria-label="Bit 5, weight 32, off">0<small>32</small></button>
+                <button class="arcade-bit-button" type="button" data-byte-bit="4" aria-pressed="false" aria-label="Bit 4, weight 16, off">0<small>16</small></button>
+                <button class="arcade-bit-button" type="button" data-byte-bit="3" aria-pressed="false" aria-label="Bit 3, weight 8, off">0<small>8</small></button>
+                <button class="arcade-bit-button" type="button" data-byte-bit="2" aria-pressed="false" aria-label="Bit 2, weight 4, off">0<small>4</small></button>
+                <button class="arcade-bit-button" type="button" data-byte-bit="1" aria-pressed="false" aria-label="Bit 1, weight 2, off">0<small>2</small></button>
+                <button class="arcade-bit-button" type="button" data-byte-bit="0" aria-pressed="false" aria-label="Bit 0, weight 1, off">0<small>1</small></button>
+              </div>
+              <dl class="arcade-output-grid" aria-live="polite">
+                <div class="arcade-readout"><dt>DECIMAL</dt><dd><output id="arcade-decimal">0</output></dd></div>
+                <div class="arcade-readout"><dt>HEXADECIMAL</dt><dd><output id="arcade-hexadecimal">0x00</output></dd></div>
+                <div class="arcade-readout"><dt>BINARY</dt><dd class="byte-binary"><output id="arcade-binary">00000000</output></dd></div>
+              </dl>
+              <div class="arcade-actions">
+                <button type="button" class="arcade-action" id="arcade-byte-random">randomize()</button>
+                <button type="button" class="arcade-action" id="arcade-byte-reset">reset()</button>
+              </div>
+              <div class="arcade-console-footer">
+                <a href="https://github.com/stacktech4024/stacktech4024/blob/main/portfolio/digital-logic.md" class="arcade-project-link" target="_blank" rel="noopener noreferrer">→ See my Digital Logic case study</a>
+              </div>
+            </div>
+
+            <div class="arcade-panel" id="arcade-panel-graph" data-arcade-panel="graph" role="tabpanel" aria-labelledby="arcade-tab-graph" hidden>
+              <h4>Graph Quest // Choose Your Route</h4>
+              <p class="arcade-panel-desc">This is the weighted directed graph from my C# console project. Compare the two available routes from A to D and see why Dijkstra selects the route with the lower total weight.</p>
+              <svg class="arcade-graph-svg" viewBox="0 0 480 215" role="img" aria-label="Weighted graph with four vertices. A to B weight 10, A to C weight 3, B to D weight 2 and C to D weight 4.">
+                <defs><marker id="arcade-arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 Z" fill="#b1d4ed"/></marker></defs>
+                <path class="edge" data-graph-edge="AB" d="M66 97 L231 51" marker-end="url(#arcade-arrow)"/>
+                <path class="edge" data-graph-edge="AC" d="M66 105 L231 165" marker-end="url(#arcade-arrow)"/>
+                <path class="edge" data-graph-edge="BD" d="M249 51 L408 97" marker-end="url(#arcade-arrow)"/>
+                <path class="edge" data-graph-edge="CD" d="M249 165 L408 105" marker-end="url(#arcade-arrow)"/>
+                <text class="weight-label" x="150" y="61">10</text><text class="weight-label" x="146" y="151">3</text>
+                <text class="weight-label" x="337" y="63">2</text><text class="weight-label" x="337" y="151">4</text>
+                <circle class="node-circle" cx="54" cy="101" r="21"/><text class="node-label" x="54" y="101">A</text>
+                <circle class="node-circle" cx="240" cy="46" r="21"/><text class="node-label" x="240" y="46">B</text>
+                <circle class="node-circle" cx="240" cy="171" r="21"/><text class="node-label" x="240" y="171">C</text>
+                <circle class="node-circle" cx="423" cy="101" r="21"/><text class="node-label" x="423" y="101">D</text>
+              </svg>
+              <div class="arcade-choices" role="group" aria-label="Choose a graph route">
+                <button type="button" class="arcade-choice" data-arcade-route="ACD" aria-pressed="true">A → C → D</button>
+                <button type="button" class="arcade-choice" data-arcade-route="ABD" aria-pressed="false">A → B → D</button>
+              </div>
+              <div class="arcade-feedback" id="arcade-route-output" aria-live="polite">A → C → D | total = 7 · shortest route ✓</div>
+              <div class="arcade-console-footer">
+                <a href="https://github.com/stacktech4024/stacktech4024/blob/main/portfolio/csharp-graph-algorithms.md" class="arcade-project-link" target="_blank" rel="noopener noreferrer">→ Explore the verified C# algorithm results</a>
+              </div>
+            </div>
+
+            <div class="arcade-panel" id="arcade-panel-ai" data-arcade-panel="ai" role="tabpanel" aria-labelledby="arcade-tab-ai" hidden>
+              <h4>AI Studio // How the Pipeline Works</h4>
+              <p class="arcade-panel-desc">An interactive illustration of the architecture used in my AI Text Analyzer API. Select a task to see a <strong>sample</strong> output format.</p>
+              <div class="arcade-pipeline" aria-label="Text analysis workflow">
+                <span class="arcade-pipeline-step">Text</span><span class="arcade-pipeline-arrow" aria-hidden="true">→</span>
+                <span class="arcade-pipeline-step">FastAPI</span><span class="arcade-pipeline-arrow" aria-hidden="true">→</span>
+                <span class="arcade-pipeline-step">LangChain</span><span class="arcade-pipeline-arrow" aria-hidden="true">→</span>
+                <span class="arcade-pipeline-step">LLM</span><span class="arcade-pipeline-arrow" aria-hidden="true">→</span>
+                <span class="arcade-pipeline-step">Output</span>
+              </div>
+              <div class="arcade-choices" role="group" aria-label="Choose an AI output example">
+                <button type="button" class="arcade-mode" data-arcade-mode="summary" aria-pressed="true">summary()</button>
+                <button type="button" class="arcade-mode" data-arcade-mode="sentiment" aria-pressed="false">sentiment()</button>
+                <button type="button" class="arcade-mode" data-arcade-mode="tags" aria-pressed="false">tags()</button>
+              </div>
+              <pre id="arcade-sample-output" class="arcade-output-sample" aria-live="polite">Sample output will appear here.</pre>
+              <p class="arcade-demo-note">This is a local UI demonstration with predefined examples. It does not send data to an AI model or claim to perform live inference.</p>
+              <div class="arcade-console-footer">
+                <a href="https://github.com/stacktech4024/ai-text-analyzer-api" class="arcade-project-link" target="_blank" rel="noopener noreferrer">→ Browse the AI Text Analyzer API</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <p class="arcade-demo-note">Built with semantic HTML, responsive CSS 3D effects, and vanilla JavaScript. Fully usable without logging in.</p>
     </div>
   </section>
 
@@ -543,5 +670,6 @@
   </footer>
 
   <script src="main.js"></script>
+  <script src="portfolio/arcade.js"></script>
 </body>
 </html>
