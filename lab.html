@@ -1,0 +1,116 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Interactive Lab — Darren Billy</title><link rel="stylesheet" href="portfolio/lab-base.css"><link rel="stylesheet" href="portfolio/arcade.css"><style>body{padding-top:0}.lab-nav{position:static;display:flex;justify-content:space-between;padding:25px 6%;border-bottom:1px solid #25314b}.lab-nav a{color:#b8cadf;text-decoration:none;font:13px system-ui}.section{padding-top:50px}.lab-footer{text-align:center;padding:30px;font:12px system-ui;color:#9aabc1}</style></head><body><header class="lab-nav"><a href="index.html">← Darren Billy · Portfolio</a><a href="coursework/">Coursework explorer ↗</a></header><section aria-labelledby="arcade-title" class="section arcade-section" id="arcade">
+<div class="container">
+<div class="section-head">
+<span class="mono section-tag">&lt;developer_arcade /&gt; // interactive_project_world</span>
+<h2 class="section-title" id="arcade-title">Explore My Developer World</h2>
+<p class="arcade-intro">A small playable coding space, inspired by game worlds. Choose a station on the 3D-style map, flip binary bits, compare graph routes, or explore the workflow behind my AI text analyzer. These are working browser interactions, not just decoration.</p>
+</div>
+<div class="arcade-frame">
+<div class="arcade-topbar mono">
+<span class="arcade-signal">SYSTEM ONLINE // STUDENT DEV WORLD</span>
+<span aria-live="polite" class="arcade-progress" id="arcade-progress">1/3 stations explored</span>
+</div>
+<div class="arcade-main">
+<div aria-label="Choose a station in the developer world" class="arcade-world">
+<div aria-hidden="true" class="arcade-world-platform"></div>
+<button aria-label="Open Bit Lab" aria-pressed="true" class="arcade-world-node arcade-node-bits" data-arcade-world="bits" type="button">
+<span aria-hidden="true" class="arcade-node-shape">01</span>
+<span class="arcade-node-label">BIT_LAB</span>
+</button>
+<button aria-label="Open Graph Quest" aria-pressed="false" class="arcade-world-node arcade-node-graph" data-arcade-world="graph" type="button">
+<span aria-hidden="true" class="arcade-node-shape">02</span>
+<span class="arcade-node-label">GRAPH_QUEST</span>
+</button>
+<button aria-label="Open AI Studio" aria-pressed="false" class="arcade-world-node arcade-node-ai" data-arcade-world="ai" type="button">
+<span aria-hidden="true" class="arcade-node-shape">03</span>
+<span class="arcade-node-label">AI_STUDIO</span>
+</button>
+</div>
+<div class="arcade-console">
+<div class="arcade-console-title">
+<h3>&gt; mission_control()</h3>
+<span>// CHOOSE A STATION</span>
+</div>
+<div aria-label="Interactive coding stations" class="arcade-tabs" role="tablist">
+<button aria-controls="arcade-panel-bits" aria-selected="true" class="arcade-tab" data-arcade-tab="bits" id="arcade-tab-bits" role="tab" type="button">01 // BITS</button>
+<button aria-controls="arcade-panel-graph" aria-selected="false" class="arcade-tab" data-arcade-tab="graph" id="arcade-tab-graph" role="tab" tabindex="-1" type="button">02 // GRAPH</button>
+<button aria-controls="arcade-panel-ai" aria-selected="false" class="arcade-tab" data-arcade-tab="ai" id="arcade-tab-ai" role="tab" tabindex="-1" type="button">03 // AI</button>
+</div>
+<div aria-labelledby="arcade-tab-bits" class="arcade-panel" data-arcade-panel="bits" id="arcade-panel-bits" role="tabpanel">
+<h4>Byte Lab // 8-bit Explorer</h4>
+<p class="arcade-panel-desc">Tap the switches to build an 8-bit number. Watch the binary, decimal, and hexadecimal values update instantly. Each switch has a place value.</p>
+<div aria-label="Eight binary switches from 128 to 1" class="arcade-bit-grid" role="group">
+<button aria-label="Bit 7, weight 128, off" aria-pressed="false" class="arcade-bit-button" data-byte-bit="7" type="button">0<small>128</small></button>
+<button aria-label="Bit 6, weight 64, off" aria-pressed="false" class="arcade-bit-button" data-byte-bit="6" type="button">0<small>64</small></button>
+<button aria-label="Bit 5, weight 32, off" aria-pressed="false" class="arcade-bit-button" data-byte-bit="5" type="button">0<small>32</small></button>
+<button aria-label="Bit 4, weight 16, off" aria-pressed="false" class="arcade-bit-button" data-byte-bit="4" type="button">0<small>16</small></button>
+<button aria-label="Bit 3, weight 8, off" aria-pressed="false" class="arcade-bit-button" data-byte-bit="3" type="button">0<small>8</small></button>
+<button aria-label="Bit 2, weight 4, off" aria-pressed="false" class="arcade-bit-button" data-byte-bit="2" type="button">0<small>4</small></button>
+<button aria-label="Bit 1, weight 2, off" aria-pressed="false" class="arcade-bit-button" data-byte-bit="1" type="button">0<small>2</small></button>
+<button aria-label="Bit 0, weight 1, off" aria-pressed="false" class="arcade-bit-button" data-byte-bit="0" type="button">0<small>1</small></button>
+</div>
+<dl aria-live="polite" class="arcade-output-grid">
+<div class="arcade-readout"><dt>DECIMAL</dt><dd><output id="arcade-decimal">0</output></dd></div>
+<div class="arcade-readout"><dt>HEXADECIMAL</dt><dd><output id="arcade-hexadecimal">0x00</output></dd></div>
+<div class="arcade-readout"><dt>BINARY</dt><dd class="byte-binary"><output id="arcade-binary">00000000</output></dd></div>
+</dl>
+<div class="arcade-actions">
+<button class="arcade-action" id="arcade-byte-random" type="button">randomize()</button>
+<button class="arcade-action" id="arcade-byte-reset" type="button">reset()</button>
+</div>
+<div class="arcade-console-footer">
+<a class="arcade-project-link" href="https://github.com/stacktech4024/stacktech4024/blob/main/portfolio/digital-logic.md" rel="noopener noreferrer" target="_blank">→ See my Digital Logic case study</a>
+</div>
+</div>
+<div aria-labelledby="arcade-tab-graph" class="arcade-panel" data-arcade-panel="graph" hidden="" id="arcade-panel-graph" role="tabpanel">
+<h4>Graph Quest // Choose Your Route</h4>
+<p class="arcade-panel-desc">This is the weighted directed graph from my C# console project. Compare the two available routes from A to D and see why Dijkstra selects the route with the lower total weight.</p>
+<svg aria-label="Weighted graph with four vertices. A to B weight 10, A to C weight 3, B to D weight 2 and C to D weight 4." class="arcade-graph-svg" role="img" viewbox="0 0 480 215">
+<defs><marker id="arcade-arrow" markerheight="8" markerwidth="8" orient="auto" refx="6" refy="3"><path d="M0 0 L6 3 L0 6 Z" fill="#b1d4ed"></path></marker></defs>
+<path class="edge" d="M66 97 L231 51" data-graph-edge="AB" marker-end="url(#arcade-arrow)"></path>
+<path class="edge" d="M66 105 L231 165" data-graph-edge="AC" marker-end="url(#arcade-arrow)"></path>
+<path class="edge" d="M249 51 L408 97" data-graph-edge="BD" marker-end="url(#arcade-arrow)"></path>
+<path class="edge" d="M249 165 L408 105" data-graph-edge="CD" marker-end="url(#arcade-arrow)"></path>
+<text class="weight-label" x="150" y="61">10</text><text class="weight-label" x="146" y="151">3</text>
+<text class="weight-label" x="337" y="63">2</text><text class="weight-label" x="337" y="151">4</text>
+<circle class="node-circle" cx="54" cy="101" r="21"></circle><text class="node-label" x="54" y="101">A</text>
+<circle class="node-circle" cx="240" cy="46" r="21"></circle><text class="node-label" x="240" y="46">B</text>
+<circle class="node-circle" cx="240" cy="171" r="21"></circle><text class="node-label" x="240" y="171">C</text>
+<circle class="node-circle" cx="423" cy="101" r="21"></circle><text class="node-label" x="423" y="101">D</text>
+</svg>
+<div aria-label="Choose a graph route" class="arcade-choices" role="group">
+<button aria-pressed="true" class="arcade-choice" data-arcade-route="ACD" type="button">A → C → D</button>
+<button aria-pressed="false" class="arcade-choice" data-arcade-route="ABD" type="button">A → B → D</button>
+</div>
+<div aria-live="polite" class="arcade-feedback" id="arcade-route-output">A → C → D | total = 7 · shortest route ✓</div>
+<div class="arcade-console-footer">
+<a class="arcade-project-link" href="https://github.com/stacktech4024/stacktech4024/blob/main/portfolio/csharp-graph-algorithms.md" rel="noopener noreferrer" target="_blank">→ Explore the verified C# algorithm results</a>
+</div>
+</div>
+<div aria-labelledby="arcade-tab-ai" class="arcade-panel" data-arcade-panel="ai" hidden="" id="arcade-panel-ai" role="tabpanel">
+<h4>AI Studio // How the Pipeline Works</h4>
+<p class="arcade-panel-desc">An interactive illustration of the architecture used in my AI Text Analyzer API. Select a task to see a <strong>sample</strong> output format.</p>
+<div aria-label="Text analysis workflow" class="arcade-pipeline">
+<span class="arcade-pipeline-step">Text</span><span aria-hidden="true" class="arcade-pipeline-arrow">→</span>
+<span class="arcade-pipeline-step">FastAPI</span><span aria-hidden="true" class="arcade-pipeline-arrow">→</span>
+<span class="arcade-pipeline-step">LangChain</span><span aria-hidden="true" class="arcade-pipeline-arrow">→</span>
+<span class="arcade-pipeline-step">LLM</span><span aria-hidden="true" class="arcade-pipeline-arrow">→</span>
+<span class="arcade-pipeline-step">Output</span>
+</div>
+<div aria-label="Choose an AI output example" class="arcade-choices" role="group">
+<button aria-pressed="true" class="arcade-mode" data-arcade-mode="summary" type="button">summary()</button>
+<button aria-pressed="false" class="arcade-mode" data-arcade-mode="sentiment" type="button">sentiment()</button>
+<button aria-pressed="false" class="arcade-mode" data-arcade-mode="tags" type="button">tags()</button>
+</div>
+<pre aria-live="polite" class="arcade-output-sample" id="arcade-sample-output">Sample output will appear here.</pre>
+<p class="arcade-demo-note">This is a local UI demonstration with predefined examples. It does not send data to an AI model or claim to perform live inference.</p>
+<div class="arcade-console-footer">
+<a class="arcade-project-link" href="https://github.com/stacktech4024/ai-text-analyzer-api" rel="noopener noreferrer" target="_blank">→ Browse the AI Text Analyzer API</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p class="arcade-demo-note">Built with semantic HTML, responsive CSS 3D effects, and vanilla JavaScript. Fully usable without logging in.</p>
+</div>
+</section><footer class="lab-footer">Local browser demonstrations · HTML, CSS & JavaScript</footer><script src="portfolio/arcade.js"></script></body></html>
